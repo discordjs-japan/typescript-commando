@@ -1,0 +1,12 @@
+name: AutoUpdater
+
+on:
+  schedule:
+    - cron: "* 1 * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: discordjs-japan/actions-ncu@master
