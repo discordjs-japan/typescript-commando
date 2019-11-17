@@ -1,12 +1,16 @@
+# テンプレートリポジトリ用
+# このテンプレートを使用してリポジトリを作成した時に削除すること
 name: AutoUpdater
 
 on:
   schedule:
-    - cron: "* 1 * * *"
+    - cron: '* 1 * * *'
 
 jobs:
-  update:
+  build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v1
     - uses: discordjs-japan/actions-ncu@master
