@@ -14,7 +14,7 @@
     "sqlite": "^4.0.23"
   },
   "devDependencies": {
-    "@types/node": "^15.12.1",
+    "@types/node": "^15.12.2",
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
     "eslint": "^7.28.0",
